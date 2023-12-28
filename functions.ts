@@ -16,3 +16,13 @@ export const printFormat = (title: string , param: string | number): void =>{
 
 // Promeise Function    
 export const fetchData = (url: string): Promise<string> => Promise.resolve(`Data from ${url}`)
+
+//Rest parameters
+
+function introduce (salutation: string, ...names: string[]): string {
+    return `${salutation} ${names.join(',')}`;
+}
+
+export const getName = (user: {first: string; last: string;}): string =>{
+    return `${user.first} ${user.last}`;
+}
