@@ -7,3 +7,6 @@ console.log(addString("a", "b"));
 console.log(addString("a",));
 
 console.log(getName({first: "Souli", last: "Messi"}));
+
+
+
