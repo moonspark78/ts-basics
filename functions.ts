@@ -24,5 +24,5 @@ function introduce (salutation: string, ...names: string[]): string {
 }
 
 export const getName = (user: {first: string; last: string;}): string =>{
-    return `${user.first} ${user.last}`;
+    return `${user?.first} ${user?.last}`;
 }
